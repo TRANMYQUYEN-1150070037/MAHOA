@@ -5,10 +5,8 @@ Lớp 11_TMĐT </br>
 ===========BÁO CÁO=================</br>
 ## Hướng dẫn cài đặt và chạy chương trình
 ### 1. Cấu hình Cơ sở dữ liệu (SQL Server)
-1. Đảm bảo SQL Server Express đang bật chế độ **Mixed Mode** và mở cổng TCP/IP **`14333`**.
-2. Mở SQL Server Management Studio (SSMS), lần lượt mở và chạy (nhấn `F5`) hai tệp:
-   - `SQL/01_Tao_CSDL.sql` (tạo database `LAB2_MaHoaHienDai`, bảng `dbo.app_users` và `dbo.crypto_history`).
-   - `SQL/02_Tao_Tai_Khoan_SQL.sql` (tạo tài khoản `lab2_user`, mật khẩu `LabUser@2026`).
+1. Đảm bảo SQL Server Express có cổng TCP/IP **`14333`**.
+2. Mở SQL Server Management Studio (SSMS), mở và chạy (nhấn `F5`) file "LAB2_MaHoaHienDai.sql" 
   
 ### 2. Chạy chương trình Java (Apache NetBeans)
 1. Mở Apache NetBeans (bản 20 trở lên, sử dụng JDK 17/21).
