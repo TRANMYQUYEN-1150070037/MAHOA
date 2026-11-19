@@ -10,7 +10,7 @@ Lớp 11_TMĐT </br>
   
 ### 2. Chạy chương trình Java (Apache NetBeans)
 1. Mở Apache NetBeans (bản 20 trở lên, sử dụng JDK 17/21).
-2. Chọn **File → Open Project...** và trỏ tới thư mục `LAB2_MaHoaHienDai`.
+2. Chọn **File → Open Project...** và trỏ tới thư mục `LAB2_MaHoaHienDai_TranMyQuyen`.
 3. Nhấp chuột phải vào dự án chọn **Clean and Build (`Shift+F11`)** để Maven tự động tải thư viện `mssql-jdbc` và `bcprov-jdk18on` (BouncyCastle).
 4. Nhấn **`F6` (Run Project)** để khởi chạy giao diện chính `week_02.frm_Menu`.
 5. Chọn **Kết nối SQL Server**,và bấm **Test Connection** trước khi thao tác các bài thực hành 2.1 – 2.6.
